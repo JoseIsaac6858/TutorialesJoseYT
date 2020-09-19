@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li, a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #ffeeb2;
+    margin:0;
+}
+.ir-arriba{
+    background-color: none;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.ir-arriba-img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.ir-arriba:hover{
+    ;
+}
+#contenedor{
+    width: 100%;
+    max-width: 1580px;
+    margin: auto;
+}
+#ParteSuperior{
+    margin-top: -1rem;
+    width: 100%;
+    max-width:1580px;
+    height: 100px;
+    background-image:linear-gradient(#006e70,#00e1e5,#69e7e9);
+    position: fixed;
+			 box-shadow: 0 20px 30px -22px #065;
+}
+#contenedor #ParteSuperior #PSLogo{
+    width: 50%;
+    height: 50px;
+    float: left;
+    border: ;
+    margin: 10px;
+}
+.logo{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    border: 1px solid green;
+    margin-top: 10px;
+}
+#contenedor #ParteSuperior #PSLogo h2{
+}
+#contenedor #ParteSuperior #PSLogo #TLogo{
+    color: black;
+    border: ;
+    margin-top: 20px;
+}
+#buscar{
+    border: 1px solid red;
+    background: aliceblue;
+}
+.buscar{
+    width: 10px;
+}
+#buscar{
+    width: 150px;
+}
+#buscar h4{
+    width: 100px;
+
+}
+.icoMenu{
+    width: 50px;
+    max-width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    padding: -10px;
+}
+.icoMenu:hover{
+    margin-right: 50%;
+    width: 140px;
+    background: aqua;
+}
+#header{
+    border: ;
+    margin-top: 25px;
+    width: 80px;
+    float: right;
+    background: ;
+    height: 50px;
+}
+#header:hover{
+    width:auto;
+    height: auto;
+    background-color:#5689e7;
+    border-radius:10px;
+    border:1px solid #adf;
+}
+#contenedor #ParteSuperior #header ul, ol{
+    list-style: none;
+}
+.nav{
+    padding: 5px 20px;
+    float: right;
+    text-align: center;
+}
+.nav li a{
+    height: ;
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border: ;
+    margin-left: ;
+}
+.nav li a:hover{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border: ;
+    height: auto;
+    margin-left: ;
+}
+.nav2 li a{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: aquamarine;
+    margin-left:;
+}
+.nav > li{
+    float: right;
+    width: auto;
+}
+.nav2{
+    display: none;
+    position: relative;
+    min-width: 140px;
+    float: right;
+}
+.nav li:hover > .nav2{
+    display: block;
+}
+.nav li .nav2 li{
+    position: relative;
+}
+.nav li .nav2{
+    top: 0;
+}
+/*-------Contenido------*/
+
+.main{
+    padding-top: 6.5rem;
+}
+#CD{
+	width: 95%;
+	height: auto;
+	text-align: center;
+	border: 2px solid #000;
+	margin: auto;
+}
+#CC{
+	width: 90%;
+	height: auto;
+}
+#anuncio{
+	width: 25%;
+	margin-left: 73%;
+}
+#PSPC{
+	margin-top: -20px;
+	width: 100%;
+	height: 210px;
+	background: aquamarine;
+	padding: 15px 0 0 0;
+}
+#PSP{
+	margin: auto;
+	width: 95%;
+	height: 200px;
+	background-image: linear-gradient(#0af, #5ad, #9dc);
+	border-radius: 30% 0 50% 0/40% 0 50% 0;
+	border: 2px solid blueviolet;
+}
+#PSP p{
+	font-size: 35px;
+	font-family: cursive;
+	font-style: italic;
+	text-align: center;
+}
+#inicioS{
+	width: 95%;
+	height: 300px;
+	background: #fff;
+	border: 1px solid #000;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	overflow-x: scroll;
+}
+#inicioS::-webkit-scrollbar{
+	width: 20px;
+	background: rgb(0 0 0/20%);
+}
+#inicioS::-webkit-scrollbar-thumb{
+	width: 10px;
+	background: #fff;
+	border-radius: 10px;
+	margin: 1px;
+	border: 1px solid #000;
+}
+#blogIS{
+	text-align: center;
+	border: 1px solid #000;
+	width: 25%;
+	min-width: 250px;
+	height: 90%;
+	margin: 10px 10px;
+	float: left;
+}
+#blogIS h3{
+	marign:auto;
+
+}
+.ImgBlogIS{
+	width:50%;
+	hright: 50%;
+	margin: 5%;
+}
+#AContenido{
+	width: 50%;
+	height: 200px;
+	margin-left: 73%;
+}
+#iframe{
+	margin:10px;
+}
+#contenidoC{
+	margin-top: -200px;
+	border-right: dotted #000;
+	width: 73%;
+}
+#contenidoCB{
+	margin-top: -200px;
+	border-right: dotted #000;
+	width: 70%;
+	overflow: hidden;
+}
+#contenido{
+    overflow: hidden;
+    width: 95%;
+    height: 150px;
+    align-content: center;
+    margin: auto;
+	margin-left: 10px;
+    margin-top: 10px;
+    background-color: #86fad9;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    margin-right: 28%;
+}
+#ContenidoVideo{
+    overflow: hidden;
+    width: 85%;
+    height: 400px;
+    align-content: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #86fad9;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+}
+#CBIB{
+	width: 90%;
+	margin-top:;
+}
+#ContenidoBlogIngredientes{
+    width: 80%;
+    height: auto;
+    align-content: center;
+    margin: auto;
+    padding: 3.5%;
+    background-color: #fff;
+}
+#presentacion{
+    overflow: hidden;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin: 25px;
+}
+#ARTimagen{
+    width: 20%;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+.ARTimagen{
+    width: 100%;
+    max-height: 70px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+#ARTcontenido{
+    position: ;
+    width: 75%;
+    border: ;
+    margin-top: -60px;
+    margin-left: 25%;
+}
+.LeerMas{
+	background: #00f;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	width: 100px;
+	height: 25px;
+}
+.Comentarios{
+	background: #00f;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	width: 100px;
+	height: 25px;
+}
+.LeerMas:hover{
+	background: #0ff;
+	border: 3px solid red;
+	border-radius: 10px;
+	color: #00f;
+	width: 100px;
+	height: 25px;
+}
+.Comentarios:hover{
+	background: #0ff;
+	border: 3px solid red;
+	border-radius: 10px;
+	color: #00f;
+	width: 100px;
+	height: 25px;
+}
+.iframe-videoART{
+	width: 65%;
+	height:80%;
+	margin: 0 5%;
+	margin-top: 0.5%;
+	border-radius: 10px;
+	border: 5px solid #000;
+}
+/*--------------------footers----------------*/
+.footer{
+	width: 100%;
+	margin-top: 7rem;
+	bottom: 20px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
+#footer{
+  background-image: Url(../imagenes/footer.png);
+    background-size: 100px;
+}
+#FInformacionDelCreador{
+	padding:20px;
+	width:30%;
+	height: 200px;
+	border:  dashed #6a00f9;
+}
+#FInformacionDelSitioWeb{
+	padding:20px;
+	width:30%;
+	height: 200px;
+	margin-left: 35%;
+	margin-top: -246px;
+	border:  dashed #6a00f9;
+}
+#FContacto{
+	padding:20px;
+	width:30%;
+	height: 200px;
+	margin-left: 70%;
+	margin-top: -246px;
+	border:  dashed #6a00f9;
+}
+#input2 {
+    height: 200px;
+    width: 100px;
+    background: aliceblue;
+}
+.imgARTguia{
+	width: 80%;
+	max-width: 200px;
+	height: auto;
+	max-height: 150px;
+	border: 2px solid #000;
+}
+/*-----------------------------------------------responsive------------------------------------------------*/
+
+@media screen and (max-width:750px){
+	#contenedor .main #contenido{
+		height: 20rem;
+	}
+	#ARTimagen{
+		margin-top: 10rem;
+		margin-left: 20%;
+		width: 60%;
+		height: auto;
+	}
+	.ARTimagen{
+		width: 100%;
+		height: 100%;
+	}
+	#ARTcontenido{
+		margin-top: -13rem;
+		margin-left: 5%;
+		width: 90%;
+		overflow: auto;
+		max-height: 100px;
+	}
+	#contenidoCB{
+		border-right: none;
+		border: 1px solid #000;
+	}
+	#CBIB{
+		border-bottom: none;
+		background: #fff;
+		margin: none;
+		width: 100%;
+	}
+	#ContenidoBlogIngredientes{
+		width: 70%;
+		height: auto;
+		align-content: center;
+		background-color: #fff;
+		border: none;
+		border-bottom: 2px solid #555;
+	}
+	#presentacion{
+		overflow: hidden;
+		width: 100%;
+		height: 50px;
+		margin: 5px;
+	}
+/*------------------footer---------------------*/
+	#FInformacionDelCreador{
+		padding:20px;
+		width:85%;
+		margin: auto;
+		height: 200px;
+	}
+	#FInformacionDelSitioWeb{
+		padding:20px;
+		width:85%;
+		height: 200px;
+		margin-left: 0;
+		margin: auto;
+		margin-top: -0;
+	}
+	#FContacto{
+		padding:20px;
+		width:85%;
+		height: 200px;
+		margin-left: 0;
+		margin-top: 0;
+		margin: auto;
+	}
+/*----------------video------------------------*/
+	.iframe-videoART{
+		width: 85%;
+		height:50%;
+	}
+}
+@media screen and (max-width:400px){
+	#contenedor .main #contenido{
+		height: 25rem;
+		background: #eee;
+	}
+	#inicioS{
+		width: 95%;
+		height: 800px;
+		background: #fff;
+		border: 1px solid #000;
+		margin: auto;
+		overflow: auto;
+		display: block;
+	}
+	#blogIS{
+		text-align: center;
+		width: 90%;
+		border: none;
+		border-bottom: 1px solid #aaa;
+		height: 250px;
+		margin: 10px 3.8%;
+		float: none;
+	}
+	#blogIS h3{
+		marign:auto;
+	
+	}
+	.ImgBlogIS{
+		width:50%;
+		hright: 50%;
+		margin: 5%;
+	}
+	#ARTimagen{
+		margin-top: 14rem;
+		margin-left: 20%;
+		width: 60%;
+		height: auto;
+	}
+	.ARTimagen{
+		width: 100%;
+		height: 100%;
+	}
+	#ARTcontenido{
+		margin-top: -18.5rem;
+		margin-left: 5%;
+		width: 90%;
+		overflow: auto;
+		max-height: 200px;
+	}
+	#presentacion{
+		overflow: hidden;
+		width: 100%;
+		height: 85px;
+		margin: 5px;
+	}
+	#anuncio{
+		width: auto;
+		margin-left: 0;
+	}
+	#AContenido{
+		width: 100%;
+		height: 200px;
+		margin-left: 0;
+	}
+	#contenidoC{
+		margin-top: -200px;
+		width: 73%;
+		border: none;
+		width: 100%;
+	}
+	#contenidoCB{
+		margin: auto;
+		margin-top: -200px;
+		border-right: none;
+		border: 1px solid #000;
+		width: 90%;
+		background: #fff;
+	}
+	#CBIB{
+		border-bottom: 2px solid #ddd;
+		margin: auto;
+	}
+	#ContenidoBlogIngredientes{
+		width: 85%;
+		height: auto;
+		align-content: center;
+		background-color: #fff;
+		border: none;
+		border-bottom: 2px solid #555;
+	}
+}
